@@ -12,7 +12,8 @@ upgrade
 ./build-essentials.sh
 ./../nvm.sh
 
-./browsers.sh
+#No browsers needed on serverside
+#./browsers.sh
 ./compression_tools.sh
 ./git.sh
 ./image_tools.sh
