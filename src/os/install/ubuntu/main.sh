@@ -21,7 +21,7 @@ upgrade
 ./misc_tools.sh
 ./../npm.sh
 ./tmux.sh
-./../zsh.sh
+./zsh.sh
 ./../vim.sh
 
 ./cleanup.sh
