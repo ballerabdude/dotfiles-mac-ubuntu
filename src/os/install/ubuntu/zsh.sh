@@ -78,6 +78,11 @@ main() {
     printf "Error: git clone of oh-my-zsh repo failed\n"
     exit 1
   }
+  
+  env git clone --depth=1 https://github.com/bhilburn/powerlevel9k.git $ZSH/custom/themes/powerlevel9k || {
+    printf "Error: git clone of powerlevel9k repo failed\n"
+    exit 1
+  }
 
 
   # printf "${BLUE}Looking for an existing zsh config...${NORMAL}\n"
